@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width, initial-scale=1.0">
+  <title>Carros</title>
+</head>
+<body>
+  <h1>CARROS</h1>
+
+  <section class="filmes">
+
+    <figure>
+      <img src="image/carros.jpg" alt="carros" width="200px" height="300px">
+      <figcaption>Filme - Carros</figcaption>
+    </figure>
+
+    <label for="data_exibicao">19/04/2023</label>
+
+    <label for="hora_exibicao">19:00</label>
+
+    <label for="classificacao">Classificação:</label>
+    <mark class="classificacao">+10</mark>
+
+    <label for="sinopse"></label>
+    <details>Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende lições que mudam sua forma de encarar a vida.</details>
+
+    <label for="duracao_filme">2h30min</label>
+
+    <div id="trailer">
+      <video controls="controls" autoplay="autoplay">
+        <source src="/videos/carros.mp4" type="video/mp4">
+        <embed src="/videos/carros.mp4">
+      </video>
+    </div>
+
+    <div id="secoes">
+      <label for="qtd_vagas">Quantidade de Vagas nas Seções</label>
+      <meter id="qtd_vagas" class="secao1" 
+      min="0" max="100"
+      low="33" high="66" optimum="80"
+      value="50">
+      </meter> Seção 01
+
+      <meter id="qtd_vagas" class="secao2" 
+      min="0" max="100"
+      low="33" high="66" optimum="80"
+      value="10">
+      </meter> Seção 02
+
+      <meter id="qtd_vagas" class="secao3" 
+      min="0" max="100"
+      low="33" high="66" optimum="80"
+      value="20">
+      </meter> Seção 03
+
+      <meter id="qtd_vagas" class="secao4" 
+      min="0" max="100"
+      low="33" high="66" optimum="80"
+      value="90">
+      </meter> Seção 04
+    </div>
+
+    <dialog open>
+      <p><h2>Restrições para o Acesso às Salas do Cinema</h2></p>
+      <p></h4>Sem bebidas<h4></p>
+      <p></h4>Celulares desligados<h4></p>
+      <p></h4>Sem barulho<h4></p>
+      <p></h4>Sem gravações<h4></p>
+      <form method="dialog">
+        <button>Ok</button>
+      </form>
+    </dialog>
+    
+    <a href="index.html">Voltar à Página Inicial</a>
+  </section>
+</body>
+</html>
