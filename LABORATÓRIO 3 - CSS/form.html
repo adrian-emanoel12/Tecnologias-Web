@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <section class="form-container">
+    <div class="container">
+    <form action="form">
+
+      <h1>Formulário de Cadastro</h1>
+      <p><label for="cadastro">Progresso de Conclusão do Formulário</label>
+      <progress id="cadastro"value="70" max="100">70%</progress></p>
+      
+      <div class="input">
+      <div class="data-nascimento">
+        <label for="data_nascimento">Data de Nascimento</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" class="date">
+      </div>
+
+      <div class="email">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" class="text">
+      </div>
+
+      <div class="telefone">
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" class="num">
+      </div>
+
+      <div class="data-adesao">
+        <label for="data_adesao">Data de Adesão</label>
+        <input type="date" id="data_adesao" name="data_adesao" class="date">
+      </div>
+
+      <div class="num-filmes">
+        <label for="num_filmes">Nº de Filmes (p/semana)</label>
+        <input type="number" id="num_filmes" name="num_filmes" min="1" max="7" class="num">
+      </div>
+      
+      <div class="cor-cliente">
+        <label for="cor_cliente">Cor de Preferência</label>
+        <input type="color" id="cor_cliente" name="cor_cliente" class="cor">
+      </div>
+
+      <div class="edereco-pessoal">
+        <label for="endereco_pessoal">Endereço Pessoal</label>
+        <input type="url" id="endereco_pessoal" name="endereco_pessoal" class="text">
+      </div>
+
+      <div class="data-hora-cupom">
+        <label for="cupom_desconto">Data e Hora p/ utilizar Cupom</label>
+        <input type="datetime-local" id="cupom_desconto" name="cupom_desconto" class="date-time">
+      </div>
+
+      <div class="tipo-filme">
+        <label for="genero">Preferência de Gênero</label><br> 
+        <input type="range" id="genero" name="genero">
+        <label for="acao">Ação</label>
+        <input type="range" id="genero" name="genero">
+        <label for="drama">Drama</label>
+        <input type="range" id="genero" name="genero">
+        <label for="romance">Romance</label>
+        <input type="range" id="genero" name="genero">
+        <label for="comedia">Comédia</label>
+        <input type="range" id="genero" name="genero">
+        <label for="suspense">Suspense</label>
+        <input type="range" id="genero" name="genero">
+        <label for="terror">Terror</label>
+        <input type="range" id="genero" name="genero">
+        <label for="ficcao">Ficção Científica</label>
+      </div>
+      </div>
+
+      <div class="enviar">
+        <input type="submit" value="Enviar">
+      </div>
+    </form>
+    <div class="back">
+      <a href="index.html" style="text-decoration: none; color: #fff;">Voltar à Página Inicial</a>
+    </div>
+  </div>
+  </section>
+</body>
+</html>
+
+<style>
+  .back a {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+  }
+</style>
