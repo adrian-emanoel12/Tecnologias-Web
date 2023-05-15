@@ -1,0 +1,87 @@
+body {
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  color: gray;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+@media  (min-width: 320px) {
+  .container {
+
+    background-color: black;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+
+    background-color: lightgreen;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+
+    background-color: lightyellow;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+
+    background-color: brown;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+
+    background-color: darkblue;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+
+    background-color: darkgreen;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+
+    background-color: darkred;
+  }
+}
+
+.landscape {
+  background-color: black;
+  display: flex;
+  color: gray;
+  padding: 10px;
+  margin: 10px 0px;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  .landscape {
+    display: none;
+    visibility: hidden;
+  }
+}
+
